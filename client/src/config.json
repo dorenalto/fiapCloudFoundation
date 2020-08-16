@@ -1,5 +1,14 @@
 {
   "api": { 
-    "invokeUrl": "http://localhost:3001"
+    "invokeUrl": "http://localhost:3000",
+    "option_settings" :
+    [
+      {
+        "namespace" : "aws:elasticbeanstalk:application",
+        "option_name" : "Application Healthcheck URL",
+        "value" : "/health"
+      }
+    ]
   } 
 }
+\
