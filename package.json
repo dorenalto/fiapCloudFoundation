@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-restapi-poc",
+  "version": "1.0.0",
+  "description": "A NodeJS REST API poc",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "author": "Dorenalto Couto",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.734.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "react-native-dynamodb": "0.0.5",
+    "winston": "^3.2.1",
+    "yup": "^0.26.10"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "moxios": "^0.4.0",
+    "nodemon": "^1.18.11",
+    "supertest": "^4.0.0"
+  }
+}
