@@ -2,7 +2,7 @@
   "name": "nodejs-restapi-poc",
   "version": "1.0.0",
   "description": "A NodeJS REST API poc",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
     "test": "jest",
     "start": "nodemon app.js",
@@ -23,5 +23,16 @@
     "moxios": "^0.4.0",
     "nodemon": "^1.18.11",
     "supertest": "^4.0.0"
-  }
+  },
+  "option_settings": [
+    {
+      "option_name": "/public",
+      "namespace": "aws:elasticbeanstalk:container:nodejs:staticfiles",
+      "value": "/public"
+    },
+    {
+      "option_name": "NODE_ENV",
+      "value": "production"
+    }
+  ]
 }
