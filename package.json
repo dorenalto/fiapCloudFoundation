@@ -14,6 +14,7 @@
     "aws-sdk": "^2.734.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "jade": "^1.11.0",
     "react-native-dynamodb": "0.0.5",
     "winston": "^3.2.1",
     "yup": "^0.26.10"
